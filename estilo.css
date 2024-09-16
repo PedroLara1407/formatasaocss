@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body{
+    /* background-color: rgb(27, 179, 27); */
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/17/51/aged-1846818_960_720.jpg); 
+    /* background-repeat: repeat-x;  */
+    background-size: cover; 
+    /* background-position: right; */ 
+    background-attachment: fixed;
+} 
+
+header{ 
+    width: 50%; 
+    margin: auto; 
+    font-size: 30px; 
+    text-align: center; 
+    text-shadow: -1px 1px 1px rgb(255, 214, 164);
+
+
+}
+
+main{
+    width: 55%; 
+    margin: auto; 
+    background-color: rgba(255, 228, 196, 0.534); 
+    padding-top: 50px; 
+    padding-left: 50px; 
+    padding-right: 50px;
+    padding-bottom: 50px; 
+    border: grey 2px solid; 
+    border-radius: 5%;
+} 
+main h2{
+    text-align: center; 
+    text-shadow: -1px 1px 1px rgb(255, 214, 164);
+}
+main h3{
+    width: 30%;  
+    text-align: center;
+    margin: auto; 
+    text-decoration: underline; 
+    
+}
+
+footer{
+    width: 30%;  
+    text-align: center;
+    margin: auto; 
+    text-decoration: underline;
+}
+p{
+    color: #000000; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 19px; 
+    font-weight: 500; 
+    /* font-style: italic; */ 
+    /* font-stretch: ultra-expanded;  */
+    line-height: 25px; 
+    /* letter-spacing: 1px;  */
+    /* word-spacing: 3px; */  
+    text-align: justify; 
+    /* text-decoration: underline rgb(255, 192, 115) dashed; */
+    /* text-transform: capitalize; */ 
+    text-indent: 40px; 
+    text-shadow: -1px -1px 1px rgb(255, 192, 115);
+}
+/* horizontal, vertical, desfoque e a cor*/
